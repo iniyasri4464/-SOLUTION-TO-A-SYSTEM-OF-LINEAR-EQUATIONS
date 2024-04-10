@@ -15,12 +15,13 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 ```
-#Program to find the rank of a matrix.
+#Program to find the solution for the given linear equations.
 #Developed by: Iniyasri.s
 #RegisterNumber:212223230081
 import numpy as np
-a=np.array([[3,2,5],[1,1,2],[3,3,6]])
-rank=np.linalg.matrix_rank(a)
+a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+b=np.array([-9,4,-1])
+rank=np.linalg.solve(a,b)
 print(rank)
 ```
 ## Output:
